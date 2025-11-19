@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
@@ -43,7 +43,7 @@ function HomePage() {
         </div>
 
         {/* IMAGEN */}
-        <div className="flex justify-center md:justify-end -mt-16">
+        <div className="flex justify-center md:justify-end -mt-18">
           <img
             src="/imgs/pizza_menu_princ.png"
             alt="Pizza"

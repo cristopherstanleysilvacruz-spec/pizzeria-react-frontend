@@ -2,7 +2,7 @@ import { ShoppingCart, UserCog, UserRound } from "lucide-react";
 import { Routes, Route, Link } from "react-router-dom";
 
 // IMPORTA TUS PÁGINAS CORRECTAMENTE (PASCAL CASE)
-import HomePage from "./components/pages/homePage";
+import HomePage from "./components/pages/HomePage";
 import MenuPage from "./components/pages/MenuPage";
 import PromocionesPage from "./components/pages/PromocionesPage";
 import SobreNosotrosPage from "./components/pages/SobreNosotrosPage";

@@ -1,4 +1,4 @@
-import React from "react";
+
 function PedirAhoraPage() {
   return (
     <div className="pt-24 text-center">
