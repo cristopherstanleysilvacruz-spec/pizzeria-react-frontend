@@ -1,91 +1,54 @@
-import React from "react";
-
 function SobreNosotrosPage() {
   return (
-    <div className="px-6 pt-28 pb-20 bg-[#FFF7E6] flex justify-center">
+    <main className="w-full bg-white mt-0">
 
-      {/* CONTENEDOR PRINCIPAL */}
-      <div
-        className="
-        w-full max-w-6xl 
-        bg-[#FFF1D6]
-        border-8 border-[#8B0000]
-        rounded-3xl
-        shadow-[12px_12px_0px_0px_#8B0000]
-        p-10
-        "
-      >
-        {/* TÍTULO */}
-        <h1
-          className="text-5xl font-extrabold text-center mb-10 
-          text-[#B40000]
-          drop-shadow-[3px_3px_0px_#FFD13B]"
-        >
-          Sobre Nosotros
-        </h1>
+      <div className="max-w-4xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 gap-0 items-center">
 
-        {/* CONTENIDO PRINCIPAL */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-
-          {/* IMAGEN REDONDA GRANDE */}
-          <div className="flex justify-center">
-            <div
-              className="
-              w-[350px] h-[350px]
-              bg-white
-              rounded-full
-              border-[10px] border-[#B40000]
-              shadow-[10px_10px_0px_0px_#B40000]
-              flex items-center justify-center
-              overflow-hidden
-            "
-            >
-              <img
-                src='https://cdn-icons-png.flaticon.com/512/3595/3595454.png'
-                alt='Pizza Ohana'
-                className='w-[75%] h-[75%] object-contain'
-              />
-            </div>
-          </div>
-
-          {/* TEXTO */}
-          <div>
-            <h2 className="text-3xl font-bold mb-4 text-[#B40000]">Nuestra Historia</h2>
-            <p className="text-[#5A3A1E] leading-relaxed mb-6 text-lg">
-              En <strong className="text-[#B40000]">Ohana Pizzas</strong> comenzamos con
-              una pasión: preparar pizzas con masa suave, horneadas al fuego y
-              llenas de sabor. Cada ingrediente es seleccionado cuidadosamente
-              para ofrecer una experiencia inolvidable.
-            </p>
-
-            <h2 className="text-3xl font-bold mb-4 text-[#B40000]">Nuestra Filosofía</h2>
-            <p className="text-[#5A3A1E] leading-relaxed mb-6 text-lg">
-              Una buena pizza une personas. Por eso buscamos transmitir calidez,
-              familia y buenos momentos en cada porción.
-            </p>
-
-            <h2 className="text-3xl font-bold mb-4 text-[#B40000]">¿Por qué elegirnos?</h2>
-            <ul className="list-disc list-inside text-[#5A3A1E] leading-relaxed text-lg">
-              <li>Ingredientes frescos y seleccionados.</li>
-              <li>Queso derretido premium y salsas caseras.</li>
-              <li>Atención rápida y amable.</li>
-              <li>Promociones irresistibles todos los días.</li>
-            </ul>
+        {/* IMAGEN IZQUIERDA */}
+        <div className="flex justify-center md:justify-start md:-ml-10">
+          <div
+            className="
+            w-[300px] h-[300px]
+            rounded-full 
+            bg-[#ffcc80]
+            border-4 border-[#c62828]
+            shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]
+            flex items-center justify-center overflow-hidden
+          "
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3595/3595454.png"
+              alt="Ohana Pizza"
+              className="w-[85%] h-[85%] object-contain"
+            />
           </div>
         </div>
 
-        {/* MENSAJE FINAL */}
-        <div className="max-w-4xl mx-auto mt-16 text-center">
-          <p className="text-2xl font-extrabold text-[#B40000] drop-shadow-[2px_2px_0px_#FFD13B]">
-            En OHANA, cada pizza cuenta una historia… y queremos que formes parte de ella.
+        {/* TEXTO DERECHA — CENTRADO */}
+        <div className="text-left md:ml-10 -mt-2">
+          <h2 className="text-4xl font-extrabold text-black mb-3">
+            Sobre Nosotros
+          </h2>
+
+          <p className="text-lg text-gray-800 leading-relaxed mb-3">
+            En <strong>Ohana Pizzas</strong>, preparamos cada pizza con amor, tradición
+            y los ingredientes más frescos...
           </p>
 
-          <p className="text-[#5A3A1E] mt-3">
-            ¡Gracias por elegirnos y disfrutar el sabor de la verdadera pizza artesanal!
+          <p className="text-lg text-gray-800 leading-relaxed mb-3">
+            Nuestro objetivo es simple:{" "}
+            <strong className="text-[#c62828]">
+              que cada bocado sea inolvidable.
+            </strong>
+          </p>
+
+          <p className="text-xl font-bold text-[#c62828]">
+            ¡Porque en OHANA, la familia siempre va primero!
           </p>
         </div>
+
       </div>
-    </div>
+    </main>
   );
 }
 

@@ -8,7 +8,6 @@ import PromocionesPage from "./components/pages/PromocionesPage";
 import SobreNosotrosPage from "./components/pages/SobreNosotrosPage";
 import ContactoPage from "./components/pages/ContactoPage";
 import IniciarSesionPage from "./components/pages/IniciarSesionPage";
-import RegistroPage from "./components/pages/RegistroPage";
 import CarritoPage from "./components/pages/CarritoPage";
 import PedirAhoraPage from "./components/pages/PedirAhoraPage";
 import AdminPage from "./components/pages/AdminPage";
@@ -65,10 +64,6 @@ function App() {
               <Link to="/iniciar-sesion">Iniciar Sesión</Link>
             </li>
 
-            <li className="cursor-pointer hover:text-yellow-600">
-              <Link to="/registro">Registro</Link>
-            </li>
-
 
             <li className="w-7 h-7 cursor-pointer hover:text-yellow-600 drop-shadow">
               <Link to="/admin">
@@ -106,7 +101,6 @@ function App() {
           <Route path="/sobre-nosotros" element={<SobreNosotrosPage />} />
           <Route path="/contacto" element={<ContactoPage />} />
           <Route path="/iniciar-sesion" element={<IniciarSesionPage />} />
-          <Route path="/registro" element={<RegistroPage />} />
           <Route path="/carrito" element={<CarritoPage />} />
           <Route path="/pedir-ahora" element={<PedirAhoraPage />} />
           <Route path="/admin" element={<AdminPage />} />
